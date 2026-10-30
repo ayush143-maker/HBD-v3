@@ -18,6 +18,10 @@ The page title is “Happy Birthday, Anya — from Ayush, by Pixel Studio”. Wh
 
 Before moving or replacing media, check the references in `index.html`. Keep each file at its current relative location or update its reference to match the new location.
 
+## Contributor handoff
+
+Keep edits focused on the requested greeting, presentation, or related assets. Preserve existing filenames and relative references, or update the references in `index.html` when a file must move. In the handoff, briefly describe the files and content changed. Manually open the page and review the affected sections and media before publishing; this is a review step, not a claim that a review has already been completed.
+
 ## Troubleshooting
 
 Use these as diagnostic steps, not as claims that the page currently has a problem:
