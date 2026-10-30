@@ -4,11 +4,11 @@ A personalised birthday microsite for Anya, with animated headings and a sequenc
 
 ## Preview locally
 
-Open `index.html` in a modern browser. For a local HTTP preview, run:
+Open `index.html` in a modern browser. For a local HTTP preview, run this from the repository directory:
 
     python -m http.server 8000
 
-Visit http://localhost:8000.
+Then visit http://localhost:8000.
 
 ## Customising the page
 
