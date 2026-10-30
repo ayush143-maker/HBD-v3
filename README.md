@@ -18,16 +18,16 @@ The page title is “Happy Birthday, Anya — from Ayush, by Pixel Studio”. Wh
 
 Before moving or replacing media, check the references in `index.html`. Keep each file at its current relative location or update its reference to match the new location.
 
-## Manual review checklist
+## Browser and layout review checklist
 
-Use these actions as a review guide; they are not verified results or measured performance.
+This is a checklist for future review, not a report of completed compatibility testing or verified results.
 
-- Open `index.html` in a browser, or visit `http://localhost:8000` after starting the local server above.
-- Read the greeting and scroll through the sections to the birthday message. Observe the animated headings after related edits.
-- Check each local image, audio, and font path referenced in `index.html` against an existing file, then review the page for missing media.
-- Review media dimensions and file sizes for their intended display. Avoid oversized files, and remove assets only after checking that no page or style still uses them.
-- The page links to Fraunces and Manrope through Google Fonts. Confirm that this external font dependency is intentional and that the linked families are used; keep the font link and styling in sync when changing typefaces. Check any external script references before adding or retaining them.
-- Inspect the page at a narrow phone-sized viewport and a wide desktop-sized viewport. Check the text, colours, images, and section layout.
+- Open `index.html` in current versions of browsers relevant to the page's intended audience. Also load it through the local server above to review relative paths in a served-page context.
+- Read the greeting and scroll through the sections to the birthday message. Observe animated headings after related edits.
+- Inspect the browser console during load and while moving through the page. Investigate errors that could affect the sections, message, or animation.
+- Inspect the Network panel for failed requests. Check each local media reference in `index.html` against its file path and confirm the media appears. Check requests for Fraunces and Manrope from Google Fonts, and confirm those remote requests are intentional; consider the page's typography if the fonts cannot load.
+- Inspect the page at a narrow phone-sized viewport and a wide desktop-sized viewport. Check text, colors, images, and section layout for clipping or overflow.
+- Review media dimensions and file sizes for their intended display. Before removing assets, check that no page or style still uses them; update references when moving files.
 
 ## Accessibility review checklist
 
