@@ -1,19 +1,15 @@
 # HBD-v3
 
-A polished, personalized birthday microsite with animated headings and a sequence of visual sections. It is structured as a static HTML experience.
+HBD-v3 is a personalised birthday microsite with a warm visual style, animated headings, and a sequence of sections that build toward the main birthday message. It is designed to feel like a small, carefully arranged digital gift rather than a generic greeting page.
 
-## Run locally
+## Preview locally
 
-Open index.html in a modern browser. If browser restrictions block local assets or APIs, serve the folder over HTTP.
+The experience is delivered as a static HTML page. Open index.html in a modern browser. For a local HTTP preview, run:
 
-## Structure and assets
+    python -m http.server 8000
 
-`index.html` is the primary entry point. Keep linked images, audio, scripts, and styles in their existing relative locations; renaming files may break references.
+Then visit http://localhost:8000.
 
-## Preview and deployment
+## Customising the page
 
-Open the page in a modern browser. If local-file behavior is restricted, start a simple HTTP server from this folder and open the local address in your browser. For static hosting, publish the correct root folder and check asset paths after deployment.
-
-## Making changes
-
-Test the page after edits and check both phone-sized and desktop-sized viewports. Confirm that buttons and other visible interactions work in the deployed version as well as locally.
+The main experience lives in index.html. Review the text, colours, images, and animation timing together when making changes so the page remains visually consistent. Test on a phone as well as a desktop browser, and keep any referenced media files in their existing relative locations.
