@@ -18,6 +18,10 @@ The page title is “Happy Birthday, Anya — from Ayush, by Pixel Studio”. Wh
 
 Before moving or replacing media, check the references in `index.html`. Keep each file at its current relative location or update its reference to match the new location.
 
+## Configuration and data handling
+
+This repository is a static page with no environment template or backend configuration listed. Never place credentials or private values in tracked HTML or assets: browser-delivered content is visible to visitors and cannot be secret. The greeting identifies people, so review names, personal details, and media before sharing or publishing the page. Linked Google Fonts are served from an external service and may be requested by visitors' browsers.
+
 ## Browser and layout review checklist
 
 This is a checklist for future review, not a report of completed compatibility testing or verified results.
