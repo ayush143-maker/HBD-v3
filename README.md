@@ -20,13 +20,14 @@ Before moving or replacing media, check the references in `index.html`. Keep eac
 
 ## Manual review checklist
 
-Use these actions as a review guide; they are not verified results.
+Use these actions as a review guide; they are not verified results or measured performance.
 
-- Open the known entry page, `index.html`, in a browser, or visit `http://localhost:8000` after starting the local server above.
+- Open `index.html` in a browser, or visit `http://localhost:8000` after starting the local server above.
 - Read the greeting and scroll through the sections to the birthday message. Observe the animated headings after related edits.
-- Check each referenced image or media path in `index.html` against the file's actual location, then review the page for missing media.
+- Check each local image, audio, and font path referenced in `index.html` against an existing file, then review the page for missing media.
+- Review media dimensions and file sizes for their intended display. Avoid oversized files, and remove assets only after checking that no page or style still uses them.
+- The page links to Fraunces and Manrope through Google Fonts. Confirm that this external font dependency is intentional and that the linked families are used; keep the font link and styling in sync when changing typefaces. Check any external script references before adding or retaining them.
 - Inspect the page at a narrow phone-sized viewport and a wide desktop-sized viewport. Check the text, colours, images, and section layout.
-- If you change the typefaces, check that the Fraunces and Manrope links and their corresponding styles remain in sync.
 
 ## Accessibility review checklist
 
