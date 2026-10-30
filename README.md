@@ -1,6 +1,6 @@
 # HBD-v3
 
-A personalised birthday microsite for Anya, with animated headings and a sequence of sections leading to the main birthday message. Open the page to view the birthday greeting and its warm, digital-gift presentation.
+A personalised birthday microsite for Anya, with animated headings and a sequence of sections leading to the main birthday message. Open the top-level `index.html` to view the birthday greeting and its warm, digital-gift presentation.
 
 ## Preview locally
 
