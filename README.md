@@ -18,6 +18,15 @@ The page title is “Happy Birthday, Anya — from Ayush, by Pixel Studio”. Wh
 
 Before moving or replacing media, check the references in `index.html`. Keep each file at its current relative location or update its reference to match the new location.
 
+## Troubleshooting
+
+Use these as diagnostic steps, not as claims that the page currently has a problem:
+
+1. **Confirm the entry page.** Open the top-level `index.html`, or serve the repository directory and visit its root URL. If the greeting or sections do not appear as expected, confirm that the served directory is this project.
+2. **Check paths and local files.** Preserve each media file's relative location or update its reference in `index.html`. If media is missing, check that the referenced file exists at that path.
+3. **Inspect browser diagnostics.** Check the console during load and while moving through the page. Use the Network panel to inspect failed requests and URLs to help distinguish a missing local file from another loading issue.
+4. **Distinguish external fonts.** Fraunces and Manrope are requested from Google Fonts and depend on network access to that external service. Check font requests separately from local media, confirm remote requests are intentional, and consider the page's appearance if the fonts cannot load.
+
 ## Configuration and data handling
 
 This repository is a static page with no environment template or backend configuration listed. Never place credentials or private values in tracked HTML or assets: browser-delivered content is visible to visitors and cannot be secret. The greeting identifies people, so review names, personal details, and media before sharing or publishing the page. Linked Google Fonts are served from an external service and may be requested by visitors' browsers.
@@ -26,10 +35,8 @@ This repository is a static page with no environment template or backend configu
 
 This is a checklist for future review, not a report of completed compatibility testing or verified results.
 
-- Open `index.html` in current versions of browsers relevant to the page's intended audience. Also load it through the local server above to review relative paths in a served-page context.
+- Review the page in current versions of browsers relevant to its intended audience.
 - Read the greeting and scroll through the sections to the birthday message. Observe animated headings after related edits.
-- Inspect the browser console during load and while moving through the page. Investigate errors that could affect the sections, message, or animation.
-- Inspect the Network panel for failed requests. Check each local media reference in `index.html` against its file path and confirm the media appears. Check requests for Fraunces and Manrope from Google Fonts, and confirm those remote requests are intentional; consider the page's typography if the fonts cannot load.
 - Inspect the page at a narrow phone-sized viewport and a wide desktop-sized viewport. Check text, colors, images, and section layout for clipping or overflow.
 - Review media dimensions and file sizes for their intended display. Before removing assets, check that no page or style still uses them; update references when moving files.
 
