@@ -1,6 +1,6 @@
 # HBD-v3
 
-A personalised birthday microsite for Anya, with animated headings and a sequence of sections leading to the main birthday message. Its warm visual style is designed as a small digital gift.
+A personalised birthday microsite for Anya, with animated headings and a sequence of sections leading to the main birthday message. Open the page to view the birthday greeting and its warm, digital-gift presentation.
 
 ## Preview locally
 
