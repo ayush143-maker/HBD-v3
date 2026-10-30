@@ -10,10 +10,20 @@ Open `index.html` in a browser, or serve the repository directory:
 python -m http.server 8000
 ```
 
-Then visit http://localhost:8000. After changes, review the text, colours, images, and animation timing together. Preserve the relative locations of referenced media files; if media is missing, check that its path still matches its location. No deployment configuration is documented; serve the page and its media as static files with their relative paths intact.
+Then visit http://localhost:8000. No deployment configuration is documented; serve the page and its media as static files with their relative paths intact.
 
 ## Personalizing the page
 
 The page title is “Happy Birthday, Anya — from Ayush, by Pixel Studio”. When changing who the greeting is for or who it is from, review both the title and the visible message in `index.html` so they remain consistent. The document links to Fraunces and Manrope through Google Fonts; keep the font link and corresponding page styling in sync if you change typefaces.
 
-Before moving or replacing media, check the references in `index.html`. Keep each file at its current relative location or update its reference to match the new location. Preview the text, colours, images, and animation timing together after edits.
+Before moving or replacing media, check the references in `index.html`. Keep each file at its current relative location or update its reference to match the new location.
+
+## Manual review checklist
+
+Use these actions as a review guide; they are not verified results.
+
+- Open the known entry page, `index.html`, in a browser, or visit `http://localhost:8000` after starting the local server above.
+- Read the greeting and scroll through the sections to the birthday message. Observe the animated headings after related edits.
+- Check each referenced image or media path in `index.html` against the file's actual location, then review the page for missing media.
+- Inspect the page at a narrow phone-sized viewport and a wide desktop-sized viewport. Check the text, colours, images, and section layout.
+- If you change the typefaces, check that the Fraunces and Manrope links and their corresponding styles remain in sync.
