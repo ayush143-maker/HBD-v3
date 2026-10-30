@@ -61,3 +61,9 @@ The following are recommendations for review, not verified compatibility or acce
 - Check text contrast throughout the page, including text placed over images or decorative areas.
 - Check referenced images for appropriate text alternatives when they convey meaningful content; avoid redundant alternatives for decorative images.
 - Check animated headings and other motion with reduced motion requested, and consider reducing or stopping nonessential animation.
+
+## Final release review
+
+- Open `index.html` from the published location and confirm the page loads as expected.
+- Test with network access available and keep a sensible fallback for externally loaded resources.
+- Review the published result once on a narrow screen and once on a wider screen; treat this as a release check, not an automated test report.
