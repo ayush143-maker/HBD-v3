@@ -27,3 +27,14 @@ Use these actions as a review guide; they are not verified results.
 - Check each referenced image or media path in `index.html` against the file's actual location, then review the page for missing media.
 - Inspect the page at a narrow phone-sized viewport and a wide desktop-sized viewport. Check the text, colours, images, and section layout.
 - If you change the typefaces, check that the Fraunces and Manrope links and their corresponding styles remain in sync.
+
+## Accessibility review checklist
+
+Use these as future review steps; they are not verified results.
+
+- Move through the greeting and sections using only a keyboard. Check that any links or controls can be focused and operated without pointer input.
+- Check keyboard focus visibility against the page's backgrounds and through the sequence of sections.
+- Review links and controls for meaningful names. Check that the birthday message and digital-gift presentation are understandable without relying only on visual styling or animation.
+- Check text contrast throughout the page, including text placed over images or decorative areas.
+- Check referenced images for appropriate text alternatives when they convey meaningful content; avoid redundant alternatives for decorative images.
+- Check animated headings and other motion with reduced motion requested, and consider reducing or stopping nonessential animation.
